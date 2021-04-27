@@ -1,0 +1,29 @@
+#home{
+     height: 470px;
+     padding: 3px 68px;
+     overflow: hidden;
+}
+
+#home::before{
+    height: 480px;
+    overflow: hidden;
+}
+
+.primary{
+    font-size: 40px;
+    overflow: hidden;
+}
+
+#home p{
+    font-size: 10px;
+    overflow: hidden;
+}
+
+.teacher .box{
+overflow: hidden;
+}
+
+.teach{
+    flex-direction: column;
+    overflow: hidden;
+}

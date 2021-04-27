@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Akaya Telivigala', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
+/* Home Section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    margin-top: 20px;
+}
+
+#home::before{
+    content: "";
+    background: url("teacher.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    opacity: 0.4;
+}
+
+#home h1{
+    text-align: center;
+    color: blue;
+}
+
+#home p{
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 10px auto;
+    color: rgb(225, 0, 255);
+}
+
+/* Teacher Section */
+
+
+.teacher{
+margin: 34px;
+display: flex;
+background-color: rgb(172, 191, 241);
+}
+
+.teacher .box{ 
+border: 2px solid rgb(0, 81, 255);
+padding: 34px;
+margin: 2px 55px;
+border-radius: 28px;
+background: #d0d4f7;
+margin-bottom: 20px;
+}
+
+.teacher .box:hover{
+background-color: white;
+}
+
+.teach{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-top: 60px;
+}
+
+/* From Section */
+.from{
+margin-top: 100px;
+margin-right: 40px;
+
+}
+
+.from h2{
+font-family: cursive;
+} 
+
+/* Form section */
+.form{
+    height: 50vh;
+    width: 50vh;
+    background-color: aliceblue;
+    margin-top: 20px;
+}
+
+.group{
+    padding-top: 20px;
+}
+
+
+
+#name{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: rgb(210, 210, 243);
+    height: 25px;
+    width: 100%;
+}
+
+#email{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: rgb(210, 210, 243);
+    height: 25px;
+    width: 100%;
+}
+
+#message{
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: rgb(210, 210, 243);
+    width: 100%;
+}
+
+.btn{
+    margin-top: 20px;
+    padding : 10px;
+    width: 100px;
+    font-family: cursive;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    background-color: rgb(210, 210, 243);
+}
+
+/* Utility Class */
+.primary{
+    display: block;
+    font-size: 4.8rem;
+    padding: 12px;
+    margin: 10px auto;
+    
+}
+
+
+.center{
+    text-align: center;
+    align-items: center;
+}
